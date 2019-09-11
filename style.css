@@ -241,20 +241,25 @@ section {
   background: #b2bec3;
 }
 
-input {
+input, textarea {
   display: block;
-  margin: 0 auto;
-  height: 30px;
-  width: 310px;
+  margin: 7px auto;
+  padding: 10px;
+  border: 1px solid grey;
+  width: 320px;
+}
+
+input {
+  height: 40px;
+}
+
+textarea {
+  resize: vertical;
 }
 
 ::-webkit-input-placeholder {
   font-family: "Karla", sans-serif;
   font-size: 120%;
-}
-
-.field-wrap {
-  margin: 5px;
 }
 
 /* Footer */
