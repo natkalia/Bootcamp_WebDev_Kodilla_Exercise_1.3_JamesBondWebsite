@@ -9,7 +9,5 @@ Project is created with:
 * Sass for CSS
 
 ## Project status
-This is the first draft of the website.
-The gallery needs improvement. 
-
+This is still draft of the website. 
  
