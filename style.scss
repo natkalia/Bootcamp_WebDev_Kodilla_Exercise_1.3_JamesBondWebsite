@@ -197,6 +197,7 @@ section {
   height: 300px;
   position: relative;
 }
+
 .tile-left-up {
   background: url("https://images.pexels.com/photos/1738536/pexels-photo-1738536.jpeg");
   background-position: center center;
@@ -240,7 +241,23 @@ section {
   transform: translate(-50%,-50%);
   display: none;
   z-index: 2;
-  opacity: 0.8;
+}
+
+.tile-inner::after {
+  position: absolute;
+  content: "";
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: grey;
+  opacity: 0.6;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.tile-inner:hover::after {
+  display: block;
 }
 
 .tile-inner:hover {
