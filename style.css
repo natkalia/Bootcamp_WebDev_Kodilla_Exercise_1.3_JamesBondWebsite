@@ -184,7 +184,7 @@ section {
   font-weight: bold;
 }
 
-.location-img {
+.tile-inner-img img {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -194,7 +194,7 @@ section {
   z-index: 0;
 }
 
-.content {
+.tile-inner-location {
   position: absolute;
   width: 100%;
   top: 50%;
@@ -204,14 +204,14 @@ section {
   z-index: 2;
 }
 
-.tile-inner {
+.tile-outer {
   float: left;
   width: 33.3333%;
   height: 300px;
   position: relative;
 }
 
-.tile-inner::after {
+.tile-outer::after {
   position: absolute;
   content: "";
   display: none;
@@ -224,15 +224,15 @@ section {
   z-index: 1;
 }
 
-.tile-inner:hover::after {
+.tile-outer:hover::after {
   display: block;
 }
 
-.tile-inner:hover {
+.tile-outer:hover {
   cursor: pointer;
 }
 
-.tile-inner:hover .content {
+.tile-outer:hover .tile-inner-location {
   display: inline;
 }
 
