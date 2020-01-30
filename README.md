@@ -1,13 +1,22 @@
-# James Bond Portfolio website
-Exercise for Web Developer Bootcamp in Kodilla made with HTML, Saas for CSS
+# James Bond
+Landing page created as exercise for Web Developer Bootcamp in Kodilla (Module 1.3)
 
-**Live:** [https://natkalia.github.io/Bootcamp_WebDev_Kodilla_Exercise_1.3_JamesBondWebsite/](https://natkalia.github.io/Bootcamp_WebDev_Kodilla_Exercise_1.3_JamesBondWebsite/)
-	
+## Setup
+
+**Live:** [https://natkalia.github.io/bond-kodilla-1.3](https://natkalia.github.io/bond-kodilla-1.3)
+
+**Repository**: https://github.com/natkalia/bond-kodilla-1.3
+
+You can also **download a zip archive** or a **clone repository** from github page:
+```bash
+git clone https://github.com/natkalia/bond-kodilla-1.3.git
+```
+As it is a static page, just **open the index.html** file in your favourite web browser.
+
 ## Technologies
 Project is created with:
 * HTML
 * Sass for CSS
 
 ## Project status
-This is still draft of the website. 
- 
+In progress.
