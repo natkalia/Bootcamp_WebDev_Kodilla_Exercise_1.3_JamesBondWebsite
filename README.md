@@ -1,5 +1,9 @@
-# James Bond
+# James Bond Personal Website :gun:
 Landing page created as exercise for Web Developer Bootcamp in Kodilla (Module 1.3)
+
+## Teaser
+
+![bond](https://user-images.githubusercontent.com/49140572/73435736-80c09600-4349-11ea-8ec1-cf1e587d0702.PNG)
 
 ## Setup
 
@@ -17,6 +21,3 @@ As it is a static page, just **open the index.html** file in your favourite web 
 Project is created with:
 * HTML
 * Sass for CSS
-
-## Project status
-In progress.
